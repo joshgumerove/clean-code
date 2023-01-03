@@ -93,3 +93,5 @@ function buildTag(tagInformation) {
 
   return tag;
 }
+
+// note how refactor made code longer (but easier to understand)
