@@ -18,3 +18,4 @@ user.save(); // create class and then method to save user (this would be the cle
 // clean code is about writing readable and meaningful code
 // should always question code and see if can improve
 // note what output parameters are (not good and should avoid if possible)
+// the length of the function body matters (should not be too long)
