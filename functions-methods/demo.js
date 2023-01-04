@@ -41,3 +41,5 @@ function createUser(email, password) {
 }
 
 createUser("", "dafdwer");
+
+// before splitting need to consider if we are improving readability
