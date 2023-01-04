@@ -180,6 +180,18 @@ function isOpen(transaction) {
   return transaction.status === "OPEN";
 }
 
+function usesCreditCard(transaction) {
+  return transaction.method === "CREDIT_CARD";
+}
+
+function usesPayPal(transaction) {
+  return transaction.method === "PAYPAL";
+}
+
+function usesPlan(transaction) {
+  return transaction.method === "PLAN";
+}
+
 function isPayment(transaction) {
   return transaction.type === "PAYMENT";
 }
