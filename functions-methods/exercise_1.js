@@ -95,3 +95,7 @@ function buildTag(tagInformation) {
 }
 
 // note how refactor made code longer (but easier to understand)
+// should write functions that do exactly one thing (in terms of levels of abstraction)
+// note the difference between high and low level abstractions
+// low level --> built-in functions within a langague etc.
+// one level of abstraction below their name
